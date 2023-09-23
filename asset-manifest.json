@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LucianoBuscaglia/practico__3.git/static/css/main.a7962793.css",
+    "main.js": "/LucianoBuscaglia/practico__3.git/static/js/main.dec84661.js",
+    "static/js/787.cf219fab.chunk.js": "/LucianoBuscaglia/practico__3.git/static/js/787.cf219fab.chunk.js",
+    "static/media/Fdo_juego.jpeg": "/LucianoBuscaglia/practico__3.git/static/media/Fdo_juego.98d0aa6ab54a97a6901e.jpeg",
+    "index.html": "/LucianoBuscaglia/practico__3.git/index.html",
+    "main.a7962793.css.map": "/LucianoBuscaglia/practico__3.git/static/css/main.a7962793.css.map",
+    "main.dec84661.js.map": "/LucianoBuscaglia/practico__3.git/static/js/main.dec84661.js.map",
+    "787.cf219fab.chunk.js.map": "/LucianoBuscaglia/practico__3.git/static/js/787.cf219fab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7962793.css",
+    "static/js/main.dec84661.js"
+  ]
+}
