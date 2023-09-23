@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.choices {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+body {
+  background-image: url(Fdo_juego.jpeg); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+.title {
+  font-size: 2rem;
+  color: gray;
+  margin-top: 1rem;
+}
+
+.result-container {
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container {
+  position: relative;
+  top: 100px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border: 5px solid #ccc;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.game-options img {
+  transition: transform 0.2s ease;
+}
+
+.game-options img:hover {
+  transform: scale(1.2);
+}
+
+.game-options img.rotate {
+  transition: transform 0.2s ease;
+}
+
+.game-options img.rotate:hover {
+  transform: rotate(360deg);
+}
+
+
+.game-options img.red-background {
+  transition: background-color 0.2s ease;
+  background-color: red;
+}
+
+.game-options img.blue-background {
+  transition: background-color 0.2s ease;
+  background-color: blue;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.game-options img.flash {
+  animation: flash 0.5s infinite;
+}
+
+.button-container {
+  display:flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  gap: 5px; 
+}
+
+.result-message {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 25px;
+  color: blue;
+  text-shadow: 1px 1px 2px black;
+  
+}
+.result-message1 {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+  
+}
